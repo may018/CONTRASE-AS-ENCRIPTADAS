@@ -1,0 +1,37 @@
+from secrets import choice
+p = input("ingrese su contraseña: ")
+
+
+p=p.lower()
+p=p.replace(" ","")
+a=''
+for i in range(len(p)):
+  if i%2==0:
+    a+=p[i]
+for i in range(len(p)):
+  if i%2!=0:
+    a+=p[i]
+
+a = a.replace('a', "d1n")
+a = a.replace('e', "h*6")
+a = a.replace('i', "-.l1")
+a = a.replace('o', "<+2")
+a = a.replace('t', "7v")
+a = a.replace('s', '/$')
+a = a.replace('b','6jh')
+a = a.replace('h','*')
+a = a.replace('v','+@')
+a = a.replace('2', "}")
+a = a.replace('5', "s")
+a = a.replace('8', ':/.')
+a = a.replace('9','du')
+a = a.replace('g','9|jk')
+
+def c():
+  c = '&%#!¿'
+  l = int(input("ingrese la cantidad de caracteres extra que desea en su contraseña: "))   
+  
+  codigo = ''.join(choice(c) for i in range(l))
+  
+  print ("su contraseña encriptada es: ", a[::-1]+codigo)
+c()
