@@ -1,0 +1,21 @@
+📌 Instrucciones de Uso
+Clona este repositorio en tu máquina local:
+
+
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo
+
+
+Ejecuta el script en Python:
+
+sh
+Copy
+Edit
+python script.py
+
+
+Ingresa tu contraseña cuando se solicite.
+
+Especifica la cantidad de caracteres aleatorios que deseas agregar.
+
+Obtén tu contraseña encriptada en la terminal.
